@@ -6,20 +6,20 @@ Using Generative AI to Scale Peer Feedback in Software Engineering Capstone Cour
 
 ## Abstract
 
-Capstone courses in software engineering provide students with practical experience in iterative collaborative project development. This study explores the integration of generative AI models, GPT-3.5 and GPT-4, to summarize peer feedback in such courses. Across three semesters, 604 students organized into 55 teams completed three development sprints, providing peer evaluations consisting of grades, strengths, and aspects to develop. AI-generated summaries were produced for each student, reviewed, and refined by teaching assistants to create the final feedback reports. We evaluated the AI summaries using both expert review and student perception surveys, and conducted computational linguistic analyses to assess readability and alignment with university-level expectations. Results indicate that GPT-4 consistently outperforms GPT-3.5 in contradiction detection, clarity, and style, while both models significantly reduce redundant or unhelpful content, streamlining the feedback process for academic teams. Student feedback suggests that AI-supported summaries aid reflection, enhance understanding of strengths and improvement areas, and promote critical thinking and collaboration. This work demonstrates how generative AI can effectively scale and enrich peer feedback in software engineering education, offering practical insights for broader applications in project-based learning.
+Capstone software engineering courses rely heavily on peer evaluations to foster iterative collaborative development, yet moderating high volumes of raw feedback at scale creates severe instructional bottlenecks. This study presents a multi-semester empirical evaluation (604 students, 55 teams) exploring the integration of Generative AI models, GPT-3.5 and GPT-4, to synthesize and analyze peer feedback. Using a double-blind, human-in-the-loop workflow, AI-generated summaries were reviewed and refined by teaching assistants before distribution to students. We evaluated the system across iterative prompt designs using expert reviews from academic teams, student perception surveys ($n = 400$), and computational linguistic readability metrics. Results indicate that AI assistance is well evaluated and preferred by the teaching staff. GPT-4 demonstrated statistically significant overall superiority ($p < 0.01$), outperforming GPT-3.5 in contradiction detection, structural prompt adherence, and style. Computational analyses confirmed that AI summarization successfully aligned feedback complexity with university-level expectations while filtering out unhelpful comments. Student evaluations confirmed that coach-mediated AI reports enhanced self-reflection, highlighted actionable growth areas, and fostered team collaboration. This work provides practical insights for effectively scaling and enriching peer feedback in project-based software engineering education.
 
 ## Overview
 
-This repository contains 3 files, each with the complete prompt and configurations for the prompts refered as "Prompt 1", "Prompt 2" and "Prompt 3" in the paper.
+This repository contains 3 files, each with the complete prompt and configurations for the prompts referred as "Prompt 1", "Prompt 2" and "Prompt 3" in the paper.
 
 ## Citation
 
 If you use this repository, please cite:
 
 ```bibtex
-@inproceedings{peer_feedback_ICACIT_2026,
+@inproceedings{burgos2026generativeAI,
 	title     = {Using Generative AI to Scale Peer Feedback in Software Engineering Capstone Courses},
-	author    = {Anonymous},
+	author    = {Burgos-Mart{\'\i}nez, Sebasti{\'a}n A and Neyem, Andres and Mendoza, Marcelo},
 	booktitle = {Proceedings of the 2026 International Symposium on Accreditation of Engineering and Computing Education (ICACIT)},
 	year      = {2026}
 }
